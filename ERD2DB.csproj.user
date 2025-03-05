@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="LibBase\LibBase17LB\BaseCanvas17LB.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="_27Implementation\Database\DatabaseCanvas27IM.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="_27Implementation\ERD\ErdEditorCanvas27IM.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="_27Implementation\ERD\ErdVisualizer27IM.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="_32Windows\DbTableManager32W.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="_32Windows\Main32W.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="_32Windows\MermaidEditor32W.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,45 @@
+﻿MenuID,ParentID,Text,Shortcut,Handler_Class,Handler_Method,Enabled,Order
+1,0,File,F,ERD2DB._34Menu.FileMenuHandler34ME,HandleFile,true,1
+11,1,New,Ctrl+N,ERD2DB._34Menu.FileMenuHandler34ME,HandleNew,true,1
+12,1,Open,Ctrl+O,ERD2DB._34Menu.FileMenuHandler34ME,HandleOpen,true,2
+13,1,Save,Ctrl+S,ERD2DB._34Menu.FileMenuHandler34ME,HandleSave,true,3
+14,1,SaveAs,,ERD2DB._34Menu.FileMenuHandler34ME,HandleSaveAs,true,4
+15,1,Exit,Alt+F4,ERD2DB._34Menu.FileMenuHandler34ME,HandleExit,true,5
+2,0,Edit,E,ERD2DB.Implementation.Menu.EditMenuHandlerME,HandleEdit,true,2
+21,2,Undo,Ctrl+Z,ERD2DB.Implementation.Menu.EditMenuHandlerME,HandleUndo,true,1
+22,2,Redo,Ctrl+Y,ERD2DB.Implementation.Menu.EditMenuHandlerME,HandleRedo,true,2
+23,2,Cut,Ctrl+X,ERD2DB.Implementation.Menu.EditMenuHandlerME,HandleCut,true,3
+24,2,Copy,Ctrl+C,ERD2DB.Implementation.Menu.EditMenuHandlerME,HandleCopy,true,4
+25,2,Paste,Ctrl+V,ERD2DB.Implementation.Menu.EditMenuHandlerME,HandlePaste,true,5
+26,2,Delete,Del,ERD2DB.Implementation.Menu.EditMenuHandlerME,HandleDelete,true,6
+27,2,Select All,Ctrl+A,ERD2DB.Implementation.Menu.EditMenuHandlerME,HandleSelectAll,true,7
+3,0,ERD Editor,,ERD2DB.Implementation.Menu.ErdEditorMenuHandlerME,HandleErdEditor,true,3
+31,3,Create Table,Insert,ERD2DB.Implementation.Menu.ErdEditorMenuHandlerME,HandleCreateTable,true,1
+32,3,Duplicate Table,Ctrl+D,ERD2DB.Implementation.Menu.ErdEditorMenuHandlerME,HandleDuplicateTable,true,2
+33,3,Rename Table,F2,ERD2DB.Implementation.Menu.ErdEditorMenuHandlerME,HandleRenameTable,true,3
+34,3,Add Column,Ctrl+Shift+N,ERD2DB.Implementation.Menu.ErdEditorMenuHandlerME,HandleAddColumn,true,4
+35,3,Delete Column,Ctrl+Shift+D,ERD2DB.Implementation.Menu.ErdEditorMenuHandlerME,HandleDeleteColumn,true,5
+36,3,Config,,ERD2DB.Implementation.Menu.ErdEditorMenuHandlerME,HandleConfig,true,6
+4,0,Database,,ERD2DB.Implementation.Menu.DatabaseMenuHandlerME,HandleDatabase,true,4
+41,4,Connect Main Server,Alt+M,ERD2DB.Implementation.Menu.DatabaseMenuHandlerME,HandleConnectMain,true,1
+42,4,Connect Sub Server,Alt+S,ERD2DB.Implementation.Menu.DatabaseMenuHandlerME,HandleConnectSub,true,2
+43,4,Disconnect,Alt+D,ERD2DB.Implementation.Menu.DatabaseMenuHandlerME,HandleDisconnect,true,3
+44,4,Server Status,Alt+T,ERD2DB.Implementation.Menu.DatabaseMenuHandlerME,HandleStatus,true,4
+45,4,Create Database,Ctrl+B,ERD2DB.Implementation.Menu.DatabaseMenuHandlerME,HandleCreateDB,true,5
+46,4,Config,,ERD2DB.Implementation.Menu.DatabaseMenuHandlerME,HandleConfig,true,6
+5,0,ERD Diagram,,ERD2DB.Implementation.Menu.ErdDiagramMenuHandlerME,HandleErdDiagram,true,5
+51,5,Full View,Alt+1,ERD2DB.Implementation.Menu.ErdDiagramMenuHandlerME,HandleFullView,true,1
+52,5,Relation Trace,Alt+2,ERD2DB.Implementation.Menu.ErdDiagramMenuHandlerME,HandleRelationTrace,true,2
+53,5,Switch Mode,Tab,ERD2DB.Implementation.Menu.ErdDiagramMenuHandlerME,HandleSwitchMode,true,3
+54,5,Full Screen,F11,ERD2DB.Implementation.Menu.ErdDiagramMenuHandlerME,HandleFullScreen,true,4
+55,5,Return View,Esc,ERD2DB.Implementation.Menu.ErdDiagramMenuHandlerME,HandleReturnView,true,5
+56,5,Auto Layout,,ERD2DB.Implementation.Menu.ErdDiagramMenuHandlerME,HandleAutoLayout,true,6
+57,5,Config,,ERD2DB.Implementation.Menu.ErdDiagramMenuHandlerME,HandleConfig,true,7
+6,0,Tools,T,ERD2DB.Implementation.Menu.ToolsMenuHandlerME,HandleTools,true,6
+61,6,ERD Validation,,ERD2DB.Implementation.Menu.ToolsMenuHandlerME,HandleValidation,true,1
+62,6,DB Check,,ERD2DB.Implementation.Menu.ToolsMenuHandlerME,HandleDBCheck,true,2
+63,6,Options,Ctrl+Shift+O,ERD2DB.Implementation.Menu.ToolsMenuHandlerME,HandleOptions,true,3
+7,0,Help,H,ERD2DB.Implementation.Menu.HelpMenuHandlerME,HandleHelp,true,7
+71,7,Help Topics,F1,ERD2DB.Implementation.Menu.HelpMenuHandlerME,HandleHelpTopics,true,1
+72,7,Shortcuts,,ERD2DB.Implementation.Menu.HelpMenuHandlerME,HandleShortcuts,true,2
+73,7,About,,ERD2DB.Implementation.Menu.HelpMenuHandlerME,HandleAbout,true,3
